@@ -1,5 +1,4 @@
-    jugar()
-import sys
+   import sys
 
 # Preguntas y respuestas por nivel
 temario = [
@@ -32,6 +31,36 @@ temario = [
         "ciudad": "Cartagena",
         "pregunta": "¿Qué palabra es un adjetivo?\nA) Azul\nB) Saltar\nC) Casa\nRespuesta: ",
         "respuesta": "A"
+    },
+    {
+        "nivel": 6,
+        "ciudad": "Bucaramanga",
+        "pregunta": "¿Cuál es el plural de 'lápiz'?\nA) Lápices\nB) Lápizs\nC) Lápizes\nRespuesta: ",
+        "respuesta": "A"
+    },
+    {
+        "nivel": 7,
+        "ciudad": "Pereira",
+        "pregunta": "¿Qué palabra es un verbo?\nA) Saltar\nB) Mesa\nC) Azul\nRespuesta: ",
+        "respuesta": "A"
+    },
+    {
+        "nivel": 8,
+        "ciudad": "Manizales",
+        "pregunta": "¿Cuál es el diminutivo de 'flor'?\nA) Florecita\nB) Florita\nC) Florcita\nRespuesta: ",
+        "respuesta": "C"
+    },
+    {
+        "nivel": 9,
+        "ciudad": "Santa Marta",
+        "pregunta": "¿Qué palabra es un pronombre?\nA) Ellos\nB) Casa\nC) Correr\nRespuesta: ",
+        "respuesta": "A"
+    },
+    {
+        "nivel": 10,
+        "ciudad": "Cúcuta",
+        "pregunta": "¿Cuál es el aumentativo de 'perro'?\nA) Perrón\nB) Perrote\nC) Perrito\nRespuesta: ",
+        "respuesta": "B"
     }
 ]
 
