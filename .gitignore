@@ -19,8 +19,8 @@ local.properties
 *.ap_
 *.dex
 
-# Gradle wrapper (keep it)
-!gradle-wrapper.jar
+# Gradle wrapper jar is needed
+!gradle/wrapper/gradle-wrapper.jar
 
 # Signing files
 *.jks

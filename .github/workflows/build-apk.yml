@@ -22,14 +22,21 @@ jobs:
         distribution: 'temurin'
         cache: 'gradle'
 
+    - name: Download Gradle wrapper
+      run: |
+        curl -L https://services.gradle.org/distributions/gradle-8.0-bin.zip -o gradle.zip
+        unzip -q gradle.zip
+        ./gradle-8.0/bin/gradle wrapper
+        rm -rf gradle-8.0 gradle.zip
+
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
 
-    - name: Download dependencies
-      run: ./gradlew dependencies
-
+    - name: Setup Gradle
+      uses: gradle/gradle-build-action@v3
+      
     - name: Build Debug APK
-      run: ./gradlew assembleDebug --stacktrace
+      run: ./gradlew assembleDebug --stacktrace --no-daemon
 
     - name: Upload Debug APK
       uses: actions/upload-artifact@v4
