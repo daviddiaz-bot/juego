@@ -1,0 +1,68 @@
+# Build and Gradle files
+.gradle/
+build/
+local.properties
+*.iml
+.gradle
+/.idea/workspace.xml
+/.idea/libraries
+/.idea/modules.xml
+/.idea/
+.DS_Store
+/captures
+.externalNativeBuild
+.cxx
+
+# APK files
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Gradle wrapper (keep it)
+!gradle-wrapper.jar
+
+# Signing files
+*.jks
+*.keystore
+
+# Android Studio
+*.iml
+.idea/
+.gradle/
+local.properties
+.navigation/
+captures/
+output.json
+
+# NDK
+obj/
+
+# OSX
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# User-specific configurations
+.idea/caches/
+.idea/libraries/
+.idea/shelf/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/.name
+.idea/compiler.xml
+.idea/copyright/profiles_settings.xml
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/scopes/scope_settings.xml
+.idea/vcs.xml
+*.ipr
+*.iws
+
+# Log files
+*.log
+
+# Android Profiling
+*.hprof

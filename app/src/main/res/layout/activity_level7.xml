@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nivel 7: Trivia"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        android:gravity="center"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/questionCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleText"
+        android:layout_centerHorizontal="true"
+        android:text="Pregunta 1/5"
+        android:textSize="16sp"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/questionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/questionCounter"
+        android:layout_margin="20dp"
+        android:text="¿Pregunta?"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="@color/gray_light"/>
+
+    <LinearLayout
+        android:id="@+id/answersLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/questionText"
+        android:layout_above="@id/nextButton"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <Button
+            android:id="@+id/answer1Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Opción 1"
+            android:layout_margin="8dp"/>
+
+        <Button
+            android:id="@+id/answer2Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Opción 2"
+            android:layout_margin="8dp"/>
+
+        <Button
+            android:id="@+id/answer3Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Opción 3"
+            android:layout_margin="8dp"/>
+
+        <Button
+            android:id="@+id/answer4Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Opción 4"
+            android:layout_margin="8dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Siguiente"
+        android:layout_margin="16dp"
+        android:visibility="gone"/>
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MultiGame - 10 Niveles</string>
+    <string name="main_title">Selecciona un Nivel</string>
+    <string name="level_1">Nivel 1: Simón Dice</string>
+    <string name="level_2">Nivel 2: Atrapa Estrellas</string>
+    <string name="level_3">Nivel 3: Puzzle Deslizante</string>
+    <string name="level_4">Nivel 4: Memoria de Cartas</string>
+    <string name="level_5">Nivel 5: Laberinto</string>
+    <string name="level_6">Nivel 6: Emparejar Colores</string>
+    <string name="level_7">Nivel 7: Trivia</string>
+    <string name="level_8">Nivel 8: Timing Perfecto</string>
+    <string name="level_9">Nivel 9: Esquiva Obstáculos</string>
+    <string name="level_10">Nivel 10: Patrón de Bloqueo</string>
+    <string name="locked">Bloqueado</string>
+    <string name="completed">Completado</string>
+    <string name="start_game">Comenzar</string>
+    <string name="retry">Reintentar</string>
+    <string name="next_level">Siguiente Nivel</string>
+    <string name="back_to_menu">Volver al Menú</string>
+    <string name="you_win">¡Ganaste!</string>
+    <string name="you_lose">¡Perdiste!</string>
+    <string name="score">Puntuación: %d</string>
+    <string name="time">Tiempo: %d</string>
+</resources>

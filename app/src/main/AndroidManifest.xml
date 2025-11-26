@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MultiGame">
+        
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".levels.Level1SimonActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".levels.Level2CatchStarsActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".levels.Level3SlidePuzzleActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".levels.Level4MemoryCardsActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".levels.Level5MazeActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".levels.Level6ColorMatchActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".levels.Level7QuizActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".levels.Level8TapTimingActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".levels.Level9AvoidObstaclesActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".levels.Level10PatternLockActivity" android:screenOrientation="portrait"/>
+        
+    </application>
+
+</manifest>
